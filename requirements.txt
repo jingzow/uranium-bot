@@ -1,0 +1,8 @@
+datetime
+discord.py
+feedparser
+openai
+matplotlib
+newspaper3k
+trafilatura
+lxml[html_clean]
