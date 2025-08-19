@@ -25,7 +25,8 @@ async def news(ctx):
         await ctx.send("No articles found.")
         return
 
-    for i, art in articles:
+    for i in range(len(articles)):
+        art = articles[i]
         dt = datetime(*art["published_parsed"][:6])
         date_str = dt.strftime("%Y-%m-%d")
 
